@@ -1,0 +1,27 @@
+{
+  "name": "project2",
+  "version": "1.0.0",
+  "description": "project2",
+  "license": "ISC",
+  "author": "\"Sayeed Ziarat Mahmud\"",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test:Q1": "mocha Q1.js --timeout 60000 --reporter mocha-allure-reporter",
+    "test:Q2": "mocha Q2.js --timeout 60000 --reporter mocha-allure-reporter",
+    "test:Q3": "mocha Q3.js --timeout 60000 --reporter mocha-allure-reporter",
+    "test:all": "mocha all.js --timeout 60000 --reporter mocha-allure-reporter",
+    "report:generate": "allure generate allure-results --clean -o allure-report",
+    "report:open": "allure open allure-report"
+  },
+  "dependencies": {
+    "chai": "^6.1.0",
+    "mocha": "^11.7.2",
+    "selenium-webdriver": "^4.35.0"
+  },
+  "devDependencies": {
+    "allure-commandline": "^2.34.1",
+    "allure-playwright": "^3.4.1",
+    "mocha-allure-reporter": "^1.4.0"
+  }
+}
