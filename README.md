@@ -29,3 +29,15 @@ Copy code
 - Mocha & Chai
 - Allure Reporter
 - Node.js
+## Installation commandline
+- npm install
+- npm in it
+- npm i mocha
+- npm i chai
+- npm install selenium-webdriver 
+- npm install -g allure-commandline
+## Run Commandline
+- npx mocha Q1.js --timeout 60000 --reporter mocha-allure-reporter
+- npx mocha Q2.js --timeout 60000 --reporter mocha-allure-reporter
+- npx mocha Q3.js --timeout 60000 --reporter mocha-allure-reporter
+- npx mocha all.js --timeout 60000 --reporter mocha-allure-reporter
